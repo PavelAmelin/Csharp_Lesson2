@@ -2,6 +2,10 @@
 int x2 = Convert.ToInt32(Console.ReadLine());
 int x3 = Convert.ToInt32(Console.ReadLine());
 int x4 = Convert.ToInt32(Console.ReadLine());
+if (x1 > x2)
+(x1, x2) = (x2, x1);
+if (x3 > x4)
+(x3, x4) = (x4, x3);
 if (x3 > x2 || x1 > x4)
     Console.WriteLine("пустое множество");
 if (x1 > x3)
